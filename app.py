@@ -43,7 +43,7 @@ def load_system():
     model = SentenceTransformer("all-MiniLM-L6-v2")
     embedding_function = SentenceTransformerEmbeddings(model)
 
-    loader = PyPDFLoader("data/sample.pdf")
+    loader = PyPDFLoader("sample.pdf")
     documents = loader.load()
 
     splitter = RecursiveCharacterTextSplitter(
