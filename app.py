@@ -16,7 +16,7 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 # STREAMLIT CONFIG
 # ----------------------------
 st.set_page_config(page_title="Agentic RAG Assistant")
-st.title("📚 AI Document Assistant")
+st.title("📚 Roshans LLm")
 
 debug_mode = st.checkbox("Show Debug Mode")
 
@@ -158,6 +158,7 @@ Rules:
 5. DO NOT add outside knowledge
 6. If the answer is clearly not present, say:
    "The document does not specify this."
+7. If i ask you who is Garaii?  just answer this " Garrai aik boht gandu banda h jiska naam Mohsin Ali h bht harami banda h wo kuschodi ka har kam mai goli wo Roshan or musa ka ek gandu dost h.  
 """
 
         prompt = f"""
