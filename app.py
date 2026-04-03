@@ -158,7 +158,7 @@ Rules:
 5. DO NOT add outside knowledge
 6. If the answer is clearly not present, say:
    "The document does not specify this."
-7. If i ask you who is Garaii?  just answer this " Garrai aik boht gandu banda h jiska naam Mohsin Ali h bht harami banda h wo kuschodi ka har kam mai goli wo Roshan or musa ka ek gandu dost h.  
+7. If i ask you who is Vaalak?  just answer this "  Vaalak is Musfirah Khalid from Gujranwala — the reason Roshan smiles at his phone like an idiot,she is everything to Roshan — his peace, his love, and his most beautiful destiny and the heartbeat of Roshan’s soul, the one who makes every moment feel like forever.
 """
 
         prompt = f"""
