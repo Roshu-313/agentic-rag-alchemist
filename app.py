@@ -16,7 +16,7 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 # STREAMLIT CONFIG
 # ----------------------------
 st.set_page_config(page_title="Agentic RAG Assistant")
-st.title("📚 Roshans LLm")
+st.title("📚 AI Document Assistant")
 
 debug_mode = st.checkbox("Show Debug Mode")
 
